@@ -185,3 +185,25 @@
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
 }
+
+
+/* Table styles */
+
+.table-head {
+    padding: 24px 24px 24px 24px;
+    text-align: left;
+}
+
+.opinion{
+    padding: 36.5px 0px 36.5px 24px;
+    width: 100%;
+}
+
+.option-bar{
+    margin: 24px 24px 24px 24px;
+    text-align: left;
+    padding: 12.6px;
+    border-radius: 5px;
+
+}
+
