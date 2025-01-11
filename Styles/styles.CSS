@@ -121,6 +121,7 @@
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: rgba(255, 255, 255, 1);
+    transition: 0.5s ;
 }
 
 .card-title{
@@ -270,7 +271,7 @@
     font-size: 40px;
     font-weight: bold;
     border: none;
-    transition: .5s ;
+    transition: 0.5s ;
 }
 
 
@@ -344,7 +345,7 @@
 
 /* hover styles */
 .choice:hover{
-    background-color: rgb(155, 124, 155);
+    background-color: rgb(194, 137, 194);
 }
 
 .btn-primary1:hover , .btn-primary2:hover , .btn:hover{
@@ -352,6 +353,10 @@
 }
 
 .nav-btn:hover{
-    background-color: rgb(155, 124, 155);
+    background-color: rgb(194, 137, 194);
     transform: translate(-5px) ; 
+}
+
+.card-item:hover{
+    background-color: rgb(194, 137, 194);
 }
