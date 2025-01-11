@@ -35,6 +35,8 @@
     padding: 15px 30px;
     border-style: solid;
     border-color: rgba(0, 106, 80, 1);
+    transition: 0.3s ;
+    transform: 0.5s;
   }
 
 .font{
@@ -44,6 +46,11 @@
     border-radius: 10px;
     justify-content: space-between; 
     margin-bottom: 80px;
+}
+
+.font-column2 img{
+    width: 474.03px;
+    height: 400px;
 }
 
 
@@ -66,6 +73,8 @@
     border-radius: 10px;
     border: none;
     padding: 17px 34px 17px 34px;
+    transition: 0.3s ;
+    transform: 0.5s;
 }
 
 .btn-primary2{
@@ -75,6 +84,8 @@
     font-size: 16px;
     font-weight: 600;
     color: rgba(255, 255, 255, 1);
+    transition: 0.3s ;
+    transform: 0.5s;
 }
 
 .align{
@@ -236,6 +247,11 @@
 
 
 /* Donate styles */
+.Donate{
+    margin-bottom: 80px;
+}
+
+
 .ammout , .setup{
     margin-top: 32px;
     display: flex;
@@ -254,7 +270,10 @@
     font-size: 40px;
     font-weight: bold;
     border: none;
+    transition: .5s ;
 }
+
+
 #bg-color{
     background-color: rgba(198, 228, 214, 1);
 }
@@ -267,4 +286,72 @@
 
 .middle{
     text-align: center;
+}
+
+/* subscribe styles */
+.subscribe{
+    padding: 80px 265px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+.marge{
+    display: flex;
+    margin: 24px;
+}
+
+.marge-bar{
+    padding: 18px 403px 18px 40px;
+    border: none;
+
+}
+
+.btn{
+    background-color: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    padding: 17px 34px 17px 34px;
+    border-radius: 0 10px 10px 0;
+    transition: 0.3s ;
+    transform: 0.5s;
+}
+
+/* footer styles */
+.end{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 50px 239px;
+}
+
+
+.foot-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#space{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.social-media{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hover styles */
+.choice:hover{
+    background-color: rgb(155, 124, 155);
+}
+
+.btn-primary1:hover , .btn-primary2:hover , .btn:hover{
+    transform: translate(-5px);
+}
+
+.nav-btn:hover{
+    background-color: rgb(155, 124, 155);
+    transform: translate(-5px) ; 
 }
