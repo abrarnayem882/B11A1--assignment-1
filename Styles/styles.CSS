@@ -196,6 +196,14 @@
 
 
 /* Table styles */
+table{
+    border-collapse: collapse;
+}
+td ,th  {
+    border: 1px solid black;
+}
+
+
 .Your-Opinion{
     margin-bottom: 80px;
     background-color: rgba(255, 255, 255, 1);
